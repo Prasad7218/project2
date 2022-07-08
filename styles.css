@@ -31,7 +31,7 @@ nav a {
   color: #555;
 }
 
-nav a[aria-current='page'] {
+nav a[aria-current="page"] {
   color: #000;
   background-color: #d4d4d4;
 }
@@ -45,10 +45,30 @@ h1 {
   font-size: 1.5rem;
 }
 
-.container{
-  margin-top:50px;
-  display:flex;
-  flex-direction:row;
+.container {
+  height: 60px;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+.signbtn {
+  height: 30px;
+  background-color: white;
+  border-radius: 40px;
+  position: relative;
+  left: 400px;
+}
+.signoutbtn {
+  height: 30px;
+  background-color: white;
+  border-radius: 40px;
+  position: relative;
+  left: 450px;
+}
+.input1 {
+  height: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
